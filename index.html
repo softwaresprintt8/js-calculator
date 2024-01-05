@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Calculator</title>
+        <script src="./main.js"></script>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td colspan="2">
+                    <input type="number" id="value1">
+                </td>
+                <td colspan="2">
+                    <input type="number" id="value2">
+                </td>
+            </tr>
+            <tr>
+                <td><button onclick="calculate('+')">SUM(+)</button></td>
+                <td><button onclick="calculate('-')">SUB(-)</button></td>
+                <td><button onclick="calculate('*')">MUL(*)</button></td>
+                <td><button onclick="calculate('/')">DIV(/)</button></td>
+            </tr>
+        </table>
+
+        <b>Result :<span id="result"></span> </b>
+    </body>
+</html>
